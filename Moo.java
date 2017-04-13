@@ -1,4 +1,3 @@
-
 import java.util.Random;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
