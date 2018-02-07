@@ -1,1 +1,1 @@
-worker: sh worker/target/bin/worker
+web: sh target/bin/webapp
