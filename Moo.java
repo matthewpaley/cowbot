@@ -20,7 +20,6 @@ public final class Moo {
 		AccessToken accessToken = new AccessToken("711687798382845952-EzkYCjPer3NhUwPG5FQm6mWD6vM3hGC",
 				"UmFsgtfuXlhM6llMKMYBBBh7pVZZPfKSYwDyaIjBZR5FV");
 		twitter.setOAuthAccessToken(accessToken);
-
 		// Declare arrays to keep track of generated lengths and initialize to
 		// false
 		int maxO = 20;
@@ -33,11 +32,11 @@ public final class Moo {
 		while (true) {
 			if (count == 20) {
 				// initialize upper array to false
-				for (int i = 0; i < upper.length; i++) {
+				for (int i = 0; i < upper.length-1; i++) {
 					upper[i] = false;
 				}
 				// initialize lower array to false
-				for (int i = 0; i < lower.length; i++) {
+				for (int i = 0; i < lower.length-1; i++) {
 					lower[i] = false;
 				}
 				count = 0;
