@@ -1,2 +1,2 @@
-web: sh target/bin/webapp
-worker: Moo.java
+web: java -cp target/classes/:target/dependency
+worker: java Moo.java
